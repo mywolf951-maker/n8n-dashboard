@@ -1,0 +1,35 @@
+# Entornos virtuales
+venv/
+.env/
+
+# Archivos de configuración sensibles
+*.env
+*.ini
+*.cfg
+
+# Archivos generados automáticamente
+__pycache__/
+*.py[cod]
+*.log
+
+# Dependencias
+*.egg-info/
+dist/
+build/
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# Ejecutables
+*.exe
+*.dll
+*.bin
+*.so
+
+# Archivos del sistema
+Thumbs.db
+.DS_Store

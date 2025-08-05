@@ -95,4 +95,3 @@ This project is published under the Creative Commons Attribution-NonCommercial-N
 For full license terms, visit https://creativecommons.org/licenses/by-nc-nd/4.0/
 
 ⚠️ Notice: This repository was created exclusively for personal and educational purposes. Commercial use or modification without the author's explicit permission is not authorized.
-
