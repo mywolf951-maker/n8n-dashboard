@@ -640,3 +640,235 @@
 2025-08-05 23:05:09,067 | INFO | log_mailhog_stopping
 2025-08-05 23:05:09,299 | INFO | mailhog_stopped_message
 2025-08-05 23:05:09,299 | INFO | mailhog_stopped_on_exit
+2025-08-06 00:48:17,684 | INFO | log_app_starting
+2025-08-06 00:48:17,718 | INFO | Ícono de la aplicación cargado correctamente.
+2025-08-06 00:48:17,769 | INFO | Logo principal cargado correctamente.
+2025-08-06 00:48:22,469 | INFO | log_service_status_updated
+2025-08-06 00:48:24,498 | INFO | 🚀 Intentando iniciar n8n...
+2025-08-06 00:48:24,501 | INFO | n8n.cmd encontrado en APPDATA: C:\Users\Aryn\AppData\Roaming\npm\n8n.cmd
+2025-08-06 00:48:24,502 | INFO | Comando n8n: cmd.exe /c start cmd.exe /k C:\Users\Aryn\AppData\Roaming\npm\n8n.cmd --port 5678
+2025-08-06 00:48:27,443 | INFO | log_service_status_updated
+2025-08-06 00:48:32,452 | INFO | log_service_status_updated
+2025-08-06 00:48:33,216 | INFO | 🌐 Intentando iniciar ngrok...
+2025-08-06 00:48:33,219 | WARNING | ngrok.exe no encontrado en ruta configurada. Asumiendo que está en PATH.
+2025-08-06 00:48:33,222 | ERROR | ngrok.exe no encontrado. Asegúrate de que ngrok esté instalado y en tu PATH.
+2025-08-06 00:48:34,617 | ERROR | 🔴 Error de conexión con n8n. ¿Está corriendo?
+2025-08-06 00:48:35,846 | INFO | log_mailhog_starting
+2025-08-06 00:48:35,848 | WARNING | MailHog.exe no encontrado en ruta configurada. Asumiendo que está en PATH.
+2025-08-06 00:48:35,959 | INFO | log_mailhog_stopping
+2025-08-06 00:48:36,190 | INFO | mailhog_stopped_message
+2025-08-06 00:48:37,456 | INFO | log_service_status_updated
+2025-08-06 00:48:38,193 | INFO | Comando MailHog: cmd.exe /c start cmd.exe /k MailHog_windows_amd64.exe -api-bind-addr=:8025 -smtp-bind-addr=:1025
+2025-08-06 00:48:38,308 | WARNING | Intento 1/10: Puerto de MailHog no disponible. Reintentando en 1 segundos...
+2025-08-06 00:48:39,421 | WARNING | Intento 2/10: Puerto de MailHog no disponible. Reintentando en 1 segundos...
+2025-08-06 00:48:40,528 | WARNING | Intento 3/10: Puerto de MailHog no disponible. Reintentando en 1 segundos...
+2025-08-06 00:48:41,642 | WARNING | Intento 4/10: Puerto de MailHog no disponible. Reintentando en 1 segundos...
+2025-08-06 00:48:42,474 | INFO | log_service_status_updated
+2025-08-06 00:48:42,474 | INFO | log_service_status_updated
+2025-08-06 00:48:42,751 | WARNING | Intento 5/10: Puerto de MailHog no disponible. Reintentando en 1 segundos...
+2025-08-06 00:48:43,873 | WARNING | Intento 6/10: Puerto de MailHog no disponible. Reintentando en 1 segundos...
+2025-08-06 00:48:43,875 | INFO | log_service_status_updated
+2025-08-06 00:48:44,984 | WARNING | Intento 7/10: Puerto de MailHog no disponible. Reintentando en 1 segundos...
+2025-08-06 00:48:46,094 | WARNING | Intento 8/10: Puerto de MailHog no disponible. Reintentando en 1 segundos...
+2025-08-06 00:48:47,200 | WARNING | Intento 9/10: Puerto de MailHog no disponible. Reintentando en 1 segundos...
+2025-08-06 01:01:12,218 | INFO | log_app_starting
+2025-08-06 01:01:12,251 | INFO | Ícono de la aplicación cargado correctamente.
+2025-08-06 01:01:12,300 | INFO | Logo principal cargado correctamente.
+2025-08-06 01:01:16,250 | INFO | 🚀 Intentando iniciar n8n...
+2025-08-06 01:01:16,251 | INFO | n8n.cmd encontrado en APPDATA: C:\Users\Aryn\AppData\Roaming\npm\n8n.cmd
+2025-08-06 01:01:16,253 | INFO | Comando n8n: cmd.exe /c start cmd.exe /k C:\Users\Aryn\AppData\Roaming\npm\n8n.cmd --port 5678
+2025-08-06 01:01:16,992 | INFO | log_service_status_updated
+2025-08-06 01:01:21,971 | INFO | log_service_status_updated
+2025-08-06 01:01:22,198 | INFO | 🌐 Intentando iniciar ngrok...
+2025-08-06 01:01:22,201 | WARNING | ngrok.exe no encontrado en ruta configurada. Asumiendo que está en PATH.
+2025-08-06 01:01:22,203 | ERROR | ngrok.exe no encontrado. Asegúrate de que ngrok esté instalado y en tu PATH.
+2025-08-06 01:01:24,929 | INFO | log_mailhog_starting
+2025-08-06 01:01:24,934 | WARNING | MailHog.exe no encontrado en ruta configurada. Asumiendo que está en PATH.
+2025-08-06 01:01:25,043 | INFO | log_mailhog_stopping
+2025-08-06 01:01:25,276 | INFO | mailhog_stopped_message
+2025-08-06 01:01:26,369 | ERROR | 🔴 Error de conexión con n8n. ¿Está corriendo?
+2025-08-06 01:01:26,961 | INFO | log_service_status_updated
+2025-08-06 01:01:27,280 | INFO | Comando MailHog: cmd.exe /c start cmd.exe /k MailHog_windows_amd64.exe -api-bind-addr=:8025 -smtp-bind-addr=:1025
+2025-08-06 01:01:27,391 | WARNING | Intento 1/10: Puerto de MailHog no disponible. Reintentando en 1 segundos...
+2025-08-06 01:01:28,505 | WARNING | Intento 2/10: Puerto de MailHog no disponible. Reintentando en 1 segundos...
+2025-08-06 01:01:29,615 | WARNING | Intento 3/10: Puerto de MailHog no disponible. Reintentando en 1 segundos...
+2025-08-06 01:01:30,726 | WARNING | Intento 4/10: Puerto de MailHog no disponible. Reintentando en 1 segundos...
+2025-08-06 01:01:31,452 | INFO | log_service_status_updated
+2025-08-06 01:01:31,840 | WARNING | Intento 5/10: Puerto de MailHog no disponible. Reintentando en 1 segundos...
+2025-08-06 01:01:31,964 | INFO | log_service_status_updated
+2025-08-06 01:01:32,942 | WARNING | Intento 6/10: Puerto de MailHog no disponible. Reintentando en 1 segundos...
+2025-08-06 01:01:34,056 | WARNING | Intento 7/10: Puerto de MailHog no disponible. Reintentando en 1 segundos...
+2025-08-06 01:13:15,973 | INFO | log_app_starting
+2025-08-06 01:13:16,011 | INFO | Ícono de la aplicación cargado correctamente.
+2025-08-06 01:13:16,059 | INFO | Logo principal cargado correctamente.
+2025-08-06 01:13:20,763 | INFO | log_service_status_updated
+2025-08-06 01:13:21,514 | INFO | 🚀 Intentando iniciar n8n...
+2025-08-06 01:13:21,518 | INFO | n8n.cmd encontrado en APPDATA: C:\Users\Aryn\AppData\Roaming\npm\n8n.cmd
+2025-08-06 01:13:21,519 | INFO | Comando n8n: cmd.exe /c start cmd.exe /k C:\Users\Aryn\AppData\Roaming\npm\n8n.cmd --port 5678
+2025-08-06 01:13:25,758 | INFO | log_service_status_updated
+2025-08-06 01:13:29,439 | INFO | 🌐 Intentando iniciar ngrok...
+2025-08-06 01:13:29,442 | WARNING | ngrok.exe no encontrado en ruta configurada. Asumiendo que está en PATH.
+2025-08-06 01:13:29,445 | ERROR | ngrok.exe no encontrado. Asegúrate de que ngrok esté instalado y en tu PATH.
+2025-08-06 01:13:30,747 | INFO | log_service_status_updated
+2025-08-06 01:13:31,627 | ERROR | 🔴 Error de conexión con n8n. ¿Está corriendo?
+2025-08-06 01:13:33,009 | INFO | log_mailhog_starting
+2025-08-06 01:13:33,011 | WARNING | MailHog.exe no encontrado en ruta configurada. Asumiendo que está en PATH.
+2025-08-06 01:13:33,125 | INFO | log_mailhog_stopping
+2025-08-06 01:13:33,358 | INFO | mailhog_stopped_message
+2025-08-06 01:13:35,359 | INFO | Comando MailHog: cmd.exe /c start cmd.exe /k MailHog_windows_amd64.exe -api-bind-addr=:8025 -smtp-bind-addr=:1025
+2025-08-06 01:13:35,465 | WARNING | Intento 1/10: Puerto de MailHog no disponible. Reintentando en 1 segundos...
+2025-08-06 01:13:35,776 | INFO | log_service_status_updated
+2025-08-06 01:13:36,576 | WARNING | Intento 2/10: Puerto de MailHog no disponible. Reintentando en 1 segundos...
+2025-08-06 01:13:37,214 | INFO | Cerrando aplicación. Deteniendo servicios...
+2025-08-06 01:13:37,216 | INFO | 🛑 Intentando detener n8n...
+2025-08-06 01:13:37,566 | INFO | 🛑 n8n detenido.
+2025-08-06 01:13:37,567 | INFO | n8n detenido al salir.
+2025-08-06 01:13:37,567 | INFO | 🚫 Intentando detener ngrok...
+2025-08-06 01:13:37,689 | WARNING | Intento 3/10: Puerto de MailHog no disponible. Reintentando en 1 segundos...
+2025-08-06 01:13:37,796 | INFO | 🛑 ngrok detenido.
+2025-08-06 01:13:37,798 | INFO | ngrok detenido al salir.
+2025-08-06 01:13:37,798 | INFO | log_mailhog_stopping
+2025-08-06 01:13:38,027 | INFO | mailhog_stopped_message
+2025-08-06 01:13:38,028 | INFO | mailhog_stopped_on_exit
+2025-08-06 01:13:38,795 | WARNING | Intento 4/10: Puerto de MailHog no disponible. Reintentando en 1 segundos...
+2025-08-06 01:13:39,877 | WARNING | Error al escribir en el panel de logs: main thread is not in main loop
+2025-08-06 01:13:40,992 | WARNING | Intento 5/10: Puerto de MailHog no disponible. Reintentando en 1 segundos...
+2025-08-06 01:13:42,072 | WARNING | Error al escribir en el panel de logs: main thread is not in main loop
+2025-08-06 01:13:43,179 | WARNING | Intento 6/10: Puerto de MailHog no disponible. Reintentando en 1 segundos...
+2025-08-06 01:13:44,261 | WARNING | Error al escribir en el panel de logs: main thread is not in main loop
+2025-08-06 01:13:45,367 | WARNING | Intento 7/10: Puerto de MailHog no disponible. Reintentando en 1 segundos...
+2025-08-06 01:13:46,445 | WARNING | Error al escribir en el panel de logs: main thread is not in main loop
+2025-08-06 01:13:47,554 | WARNING | Intento 8/10: Puerto de MailHog no disponible. Reintentando en 1 segundos...
+2025-08-06 01:13:48,633 | WARNING | Error al escribir en el panel de logs: main thread is not in main loop
+2025-08-06 01:13:49,745 | WARNING | Intento 9/10: Puerto de MailHog no disponible. Reintentando en 1 segundos...
+2025-08-06 01:13:50,826 | WARNING | Error al escribir en el panel de logs: main thread is not in main loop
+2025-08-06 01:13:51,936 | WARNING | Intento 10/10: Puerto de MailHog no disponible. Reintentando en 1 segundos...
+2025-08-06 01:13:53,018 | WARNING | Error al escribir en el panel de logs: main thread is not in main loop
+2025-08-06 01:13:54,019 | ERROR | 🔴 Error de conexión con MailHog. ¿Está corriendo?
+2025-08-06 01:13:55,105 | WARNING | Error al escribir en el panel de logs: main thread is not in main loop
+2025-08-06 01:28:35,337 | INFO | log_app_starting
+2025-08-06 01:28:35,370 | INFO | Ícono de la aplicación cargado correctamente.
+2025-08-06 01:28:35,417 | INFO | Logo principal cargado correctamente.
+2025-08-06 01:28:47,701 | INFO | 🚀 Intentando iniciar n8n...
+2025-08-06 01:28:47,705 | ERROR | n8n no encontrado en la ruta.
+2025-08-06 01:28:53,111 | INFO | 🌐 Intentando iniciar ngrok...
+2025-08-06 01:28:57,134 | INFO | log_mailhog_starting
+2025-08-06 01:28:57,137 | ERROR | MailHog.exe no encontrado.
+2025-08-06 01:29:29,062 | INFO | Cerrando aplicación. Deteniendo servicios...
+2025-08-06 01:39:22,274 | INFO | log_app_starting
+2025-08-06 01:39:22,309 | INFO | Ícono de la aplicación cargado correctamente.
+2025-08-06 01:39:22,358 | INFO | Logo principal cargado correctamente.
+2025-08-06 01:39:25,093 | INFO | log_service_status_updated
+2025-08-06 01:39:30,061 | INFO | log_service_status_updated
+2025-08-06 01:39:31,490 | INFO | 🚀 Intentando iniciar n8n...
+2025-08-06 01:39:35,083 | INFO | log_service_status_updated
+2025-08-06 01:39:40,079 | INFO | log_service_status_updated
+2025-08-06 01:39:45,087 | INFO | log_service_status_updated
+2025-08-06 01:39:48,886 | INFO | log_service_status_updated
+2025-08-06 01:39:49,449 | INFO | 🌐 Intentando iniciar ngrok...
+2025-08-06 01:39:50,122 | INFO | log_service_status_updated
+2025-08-06 01:39:51,680 | INFO | log_mailhog_starting
+2025-08-06 01:39:51,687 | ERROR | MailHog.exe no encontrado.
+2025-08-06 01:39:53,862 | INFO | log_service_status_updated
+2025-08-06 01:39:55,101 | INFO | log_service_status_updated
+2025-08-06 01:39:56,871 | INFO | Cerrando aplicación. Deteniendo servicios...
+2025-08-06 01:39:58,687 | INFO | Cerrando aplicación. Deteniendo servicios...
+2025-08-06 01:39:58,799 | INFO | log_service_status_updated
+2025-08-06 01:39:58,874 | INFO | log_service_status_updated
+2025-08-06 01:39:59,013 | INFO | log_service_status_updated
+2025-08-06 01:40:00,090 | INFO | log_service_status_updated
+2025-08-06 01:40:00,526 | INFO | Cerrando aplicación. Deteniendo servicios...
+2025-08-06 01:40:00,830 | INFO | Cerrando aplicación. Deteniendo servicios...
+2025-08-06 01:40:01,110 | INFO | Cerrando aplicación. Deteniendo servicios...
+2025-08-06 01:40:01,655 | INFO | Cerrando aplicación. Deteniendo servicios...
+2025-08-06 01:42:06,083 | INFO | log_app_starting
+2025-08-06 01:42:06,125 | INFO | Ícono de la aplicación cargado correctamente.
+2025-08-06 01:42:06,176 | INFO | Logo principal cargado correctamente.
+2025-08-06 01:42:08,906 | INFO | log_service_status_updated
+2025-08-06 01:42:11,139 | INFO | 🚀 Intentando iniciar n8n...
+2025-08-06 01:42:13,875 | INFO | log_service_status_updated
+2025-08-06 01:42:18,881 | INFO | log_service_status_updated
+2025-08-06 01:42:23,877 | INFO | log_service_status_updated
+2025-08-06 01:42:28,543 | INFO | log_service_status_updated
+2025-08-06 01:42:28,883 | INFO | log_service_status_updated
+2025-08-06 01:42:33,579 | INFO | log_service_status_updated
+2025-08-06 01:42:33,887 | INFO | log_service_status_updated
+2025-08-06 01:42:38,560 | INFO | log_service_status_updated
+2025-08-06 01:42:38,900 | INFO | log_service_status_updated
+2025-08-06 01:42:43,575 | INFO | log_service_status_updated
+2025-08-06 01:42:43,915 | INFO | log_service_status_updated
+2025-08-06 01:42:48,576 | INFO | log_service_status_updated
+2025-08-06 01:42:48,899 | INFO | log_service_status_updated
+2025-08-06 01:42:53,587 | INFO | log_service_status_updated
+2025-08-06 01:42:53,913 | INFO | log_service_status_updated
+2025-08-06 01:42:58,578 | INFO | log_service_status_updated
+2025-08-06 01:42:58,920 | INFO | log_service_status_updated
+2025-08-06 01:43:03,586 | INFO | log_service_status_updated
+2025-08-06 01:43:03,925 | INFO | log_service_status_updated
+2025-08-06 01:43:08,591 | INFO | log_service_status_updated
+2025-08-06 01:43:08,930 | INFO | log_service_status_updated
+2025-08-06 01:43:13,627 | INFO | log_service_status_updated
+2025-08-06 01:43:13,967 | INFO | log_service_status_updated
+2025-08-06 01:43:16,307 | INFO | 🌐 Intentando iniciar ngrok...
+2025-08-06 01:43:18,608 | INFO | log_service_status_updated
+2025-08-06 01:43:18,947 | INFO | log_service_status_updated
+2025-08-06 01:43:23,619 | INFO | log_service_status_updated
+2025-08-06 01:43:23,957 | INFO | log_service_status_updated
+2025-08-06 01:43:25,634 | INFO | log_service_status_updated
+2025-08-06 01:43:28,613 | INFO | log_service_status_updated
+2025-08-06 01:43:29,018 | INFO | log_service_status_updated
+2025-08-06 01:43:30,656 | INFO | log_service_status_updated
+2025-08-06 01:43:33,641 | INFO | log_service_status_updated
+2025-08-06 01:43:33,965 | INFO | log_service_status_updated
+2025-08-06 01:43:35,655 | INFO | log_service_status_updated
+2025-08-06 01:43:38,616 | INFO | log_service_status_updated
+2025-08-06 01:43:38,974 | INFO | log_service_status_updated
+2025-08-06 01:43:40,649 | INFO | log_service_status_updated
+2025-08-06 01:43:43,617 | INFO | log_service_status_updated
+2025-08-06 01:43:43,973 | INFO | log_service_status_updated
+2025-08-06 01:43:45,655 | INFO | log_service_status_updated
+2025-08-06 01:43:48,651 | INFO | log_service_status_updated
+2025-08-06 01:43:48,988 | INFO | log_service_status_updated
+2025-08-06 01:43:50,650 | INFO | log_service_status_updated
+2025-08-06 01:43:53,657 | INFO | log_service_status_updated
+2025-08-06 01:43:54,010 | INFO | log_service_status_updated
+2025-08-06 01:43:55,661 | INFO | log_service_status_updated
+2025-08-06 01:43:58,671 | INFO | log_service_status_updated
+2025-08-06 01:43:59,013 | INFO | log_service_status_updated
+2025-08-06 01:44:00,659 | INFO | log_service_status_updated
+2025-08-06 01:44:03,676 | INFO | log_service_status_updated
+2025-08-06 01:44:04,001 | INFO | log_service_status_updated
+2025-08-06 01:44:05,693 | INFO | log_service_status_updated
+2025-08-06 01:44:08,686 | INFO | log_service_status_updated
+2025-08-06 01:44:09,026 | INFO | log_service_status_updated
+2025-08-06 01:44:10,681 | INFO | log_service_status_updated
+2025-08-06 01:44:13,696 | INFO | log_service_status_updated
+2025-08-06 01:44:14,019 | INFO | log_service_status_updated
+2025-08-06 01:44:15,679 | INFO | log_service_status_updated
+2025-08-06 01:44:18,682 | INFO | log_service_status_updated
+2025-08-06 01:44:19,038 | INFO | log_service_status_updated
+2025-08-06 01:44:20,676 | INFO | log_service_status_updated
+2025-08-06 01:44:23,699 | INFO | log_service_status_updated
+2025-08-06 01:44:24,021 | INFO | log_service_status_updated
+2025-08-06 01:44:25,673 | INFO | log_service_status_updated
+2025-08-06 01:44:28,704 | INFO | log_service_status_updated
+2025-08-06 01:44:29,043 | INFO | log_service_status_updated
+2025-08-06 01:44:30,692 | INFO | log_service_status_updated
+2025-08-06 01:44:33,718 | INFO | log_service_status_updated
+2025-08-06 01:44:34,044 | INFO | log_service_status_updated
+2025-08-06 01:44:35,674 | INFO | log_service_status_updated
+2025-08-06 01:44:38,730 | INFO | log_service_status_updated
+2025-08-06 01:44:39,039 | INFO | log_service_status_updated
+2025-08-06 01:44:40,689 | INFO | log_service_status_updated
+2025-08-06 01:44:43,723 | INFO | log_service_status_updated
+2025-08-06 01:44:44,048 | INFO | log_service_status_updated
+2025-08-06 01:44:45,699 | INFO | log_service_status_updated
+2025-08-06 01:44:48,734 | INFO | log_service_status_updated
+2025-08-06 01:44:49,041 | INFO | log_service_status_updated
+2025-08-06 01:44:50,705 | INFO | log_service_status_updated
+2025-08-06 01:44:53,744 | INFO | log_service_status_updated
+2025-08-06 01:44:54,049 | INFO | log_service_status_updated
+2025-08-06 01:44:55,712 | INFO | log_service_status_updated
+2025-08-06 01:44:58,732 | INFO | log_service_status_updated
+2025-08-06 01:44:59,054 | INFO | log_service_status_updated
+2025-08-06 01:45:00,701 | INFO | log_service_status_updated
