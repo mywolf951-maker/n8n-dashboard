@@ -1,0 +1,5 @@
+{
+  "mailhog": "C:/Users/Aryn/Desktop/n8n-control/Controlpro/MailHog_windows_amd64.exe",
+  "ngrok": "C:/Users/Aryn/Desktop/n8n-control/Controlpro/node_modules/@ngrok/ngrok-win32-x64-msvc/ngrok.exe",
+  "n8n": "C:/Users/Aryn/AppData/Roaming/npm/n8n.cmd"
+}

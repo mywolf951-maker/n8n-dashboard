@@ -1,0 +1,25 @@
+{
+  "idioma": "es",
+  "modo_fondo": "Pantalla completa",
+  "servicios": {
+    "n8n": {
+      "puerto": 5678,
+      "autoinicio": true,
+      "ruta_instalacion": "C:\\Users\\Aryn\\AppData\\Roaming\\npm\\n8n.cmd"
+    },
+    "ngrok": {
+      "authtoken": "30pvTBbD83Po0mEfxn6X23oMCUM_7hWc8QwRmBsdrKVgHuwpH",
+      "region": "us",
+      "ruta_ejecutable": "C:\\Users\\Aryn\\Desktop\\n8n-control\\Controlpro\\node_modules\\@ngrok\\ngrok-win32-x64-msvc\\ngrok.exe"
+    },
+    "mailhog": {
+      "puerto_smtp": 1025,
+      "puerto_web": 8025,
+      "mailhog_exec_path": "C:\\Users\\Aryn\\Desktop\\n8n-control\\Controlpro\\MailHog_windows_amd64.exe"
+    }
+  },
+  "alertas": {
+    "email_destino": "monitor@ejemplo.com",
+    "activar_captura_critica": true
+  }
+}
