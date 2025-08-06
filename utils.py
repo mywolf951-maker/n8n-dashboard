@@ -1,17 +1,23 @@
 import os
+import sys
 import datetime
 from PIL import ImageGrab
 import requests
 import smtplib
 from email.message import EmailMessage
-# No importar logging directamente aquí, se espera que el logger se pase o se use el global.
-# Las funciones devuelven mensajes "crudos" o claves para que el llamador los traduzca.
+import pyperclip
+import time
 
+# 🎯 Acceso a recursos empaquetados
+def resource_path(relative_path):
+    try:
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+    return os.path.join(base_path, relative_path)
+
+# 📸 Captura visual del widget ante error
 def capturar_widget(widget, nombre="captura_error"):
-    """
-    Captura una imagen de un widget específico de la interfaz gráfica.
-    Devuelve True y la ruta del archivo si tiene éxito, False y un mensaje de error si falla.
-    """
     try:
         x = widget.winfo_rootx()
         y = widget.winfo_rooty()
@@ -19,25 +25,18 @@ def capturar_widget(widget, nombre="captura_error"):
         h = widget.winfo_height()
 
         bbox = (x, y, x + w, y + h)
-
         carpeta = "capturas"
         os.makedirs(carpeta, exist_ok=True)
-
         timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
         archivo = f"{carpeta}/{nombre}_{timestamp}.png"
-
         imagen = ImageGrab.grab(bbox)
         imagen.save(archivo)
-        return True, archivo # Devuelve la ruta del archivo para que el llamador la use/traduzca
-
+        return True, archivo
     except Exception as e:
-        return False, str(e) # Devuelve el mensaje de error en crudo
+        return False, str(e)
 
+# 📧 Envío por MailHog con captura adjunta
 def enviar_a_mailhog(ruta_imagen, subject, content, from_email="dashboard@localhost", to_email="monitor@localhost"):
-    """
-    Envía un correo electrónico con una imagen adjunta a un servidor MailHog.
-    Devuelve True y una clave de éxito si tiene éxito, False y un mensaje de error si falla.
-    """
     try:
         msg = EmailMessage()
         msg['Subject'] = subject
@@ -51,27 +50,37 @@ def enviar_a_mailhog(ruta_imagen, subject, content, from_email="dashboard@localh
         with smtplib.SMTP("localhost", 1025) as server:
             server.send_message(msg)
 
-        return True, "capture_sent" # Clave para traducción de éxito
-
+        return True, "capture_sent"
     except Exception as e:
-        return False, str(e) # Mensaje de error en crudo
+        return False, str(e)
 
+# 🧪 Verificación de MailHog
 def verificar_mailhog():
-    """
-    Verifica si el servidor MailHog está activo y accesible.
-    Devuelve True y una clave de éxito si está activo, False y una clave/argumento de error si no.
-    """
     try:
-        response = requests.get("http://localhost:8025", timeout=2) # Añadir timeout para evitar esperas largas
+        response = requests.get("http://localhost:8025", timeout=2)
         if response.status_code == 200:
-            return True, "mailhog_status_active" # Clave para traducción
+            return True, "mailhog_status_active"
         else:
-            return False, "mailhog_status_inaccessible_code", response.status_code # Clave y argumento para traducción
+            return False, "mailhog_status_inaccessible_code", response.status_code
     except requests.exceptions.ConnectionError:
-        return False, "mailhog_status_connection_error" # Clave para traducción
+        return False, "mailhog_status_connection_error"
     except requests.exceptions.Timeout:
-        return False, "mailhog_status_timeout" # Clave para traducción
+        return False, "mailhog_status_timeout"
     except Exception as e:
-        return False, "mailhog_status_generic_error", str(e) # Clave y argumento para traducción
+        return False, "mailhog_status_generic_error", str(e)
 
-
+# 🌐 Extracción inteligente del túnel ngrok
+def obtener_url_ngrok():
+    for intento in range(5):
+        try:
+            time.sleep(1.5)
+            response = requests.get("http://localhost:4040/api/tunnels")
+            data = response.json()
+            url = data['tunnels'][0]['public_url']
+            pyperclip.copy(url)
+            print(f"🌐 ngrok activo en: {url} (copiado al portapapeles)")
+            return url
+        except Exception as e:
+            print(f"Intento {intento+1}: ngrok aún no responde...")
+    print("❌ No se pudo obtener la URL pública de ngrok.")
+    return None
