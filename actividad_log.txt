@@ -872,3 +872,14 @@
 2025-08-06 01:44:58,732 | INFO | log_service_status_updated
 2025-08-06 01:44:59,054 | INFO | log_service_status_updated
 2025-08-06 01:45:00,701 | INFO | log_service_status_updated
+2025-08-06 02:01:31,915 - Inicio del arranque global
+2025-08-06 02:01:32,567 - n8n lanzado correctamente
+2025-08-06 02:01:34,576 - MailHog lanzado correctamente
+2025-08-06 02:01:35,581 - ngrok ya está corriendo
+2025-08-06 02:01:35,582 - Arranque global finalizado
+2025-08-06 02:04:30,603 | INFO | log_app_starting
+2025-08-06 02:04:30,603 - log_app_starting
+2025-08-06 02:07:14,165 | INFO | log_app_starting
+2025-08-06 02:07:14,165 - log_app_starting
+2025-08-06 02:07:55,381 | INFO | log_app_starting
+2025-08-06 02:07:55,381 - log_app_starting
